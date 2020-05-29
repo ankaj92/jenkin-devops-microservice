@@ -18,3 +18,15 @@ pipeline {
 		}
 	}	
 }
+
+post {
+	always {
+		echo 'i ran yey!'
+	}
+	success {
+		echo 'i\'m successfull yey'
+		}
+	failure {
+		echo 'i\'m failed'
+	}
+}
